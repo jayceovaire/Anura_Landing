@@ -1,9 +1,0 @@
-{
-  "imports": {
-    "@std/http/file-server": "jsr:@std/http@1/file-server"
-  },
-  "tasks": {
-    "build": "bun run build",
-    "start": "deno run --allow-net --allow-read main.ts"
-  }
-}
